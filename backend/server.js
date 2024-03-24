@@ -7,7 +7,6 @@ import messageRoutes from "./routes/message.routes.js";
 import connectToMongoDB from "./db/connectToMongoDb.js";
 import userRoutes from "./routes/user.routes.js";
 import { app, server } from "./socket/socket.js";
-import exp from "constants";
 
 dotenv.config();
 
